@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Employees · AttendPro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">⏱️ AttendPro</div>
+  <nav><a href="index.html" class="">🏠 Dashboard</a><a href="mark.html" class="">✅ Mark Attendance</a><a href="history.html" class="">📅 Employee History</a><a href="reports.html" class="">📊 Reports</a><a href="employees.html" class="active">👥 Employees</a><a href="login.html" class="logout">Logout</a></nav>
+</header>
+<main class="container">
+<h1 class="page-title">Employees</h1>
+
+<div class="grid grid-2">
+  <div class="card">
+    <h2>➕ Add new employee</h2>
+    <form action="#" onsubmit="return false">
+      <label for="fn">First name</label><input type="text" id="fn">
+      <label for="ln">Last name</label><input type="text" id="ln">
+      <label for="em">Email</label><input type="email" id="em">
+      <label for="dp">Department</label>
+      <select id="dp"><option value="0">— None —</option><option value="1">Information Technology</option><option value="2">Human Resources</option><option value="3">Finance &amp; Accounting</option><option value="4">Marketing &amp; Communications</option><option value="5">Research &amp; Development</option><option value="6">Customer Support</option><option value="7">Sales &amp; Business Development</option><option value="8">Quality Assurance</option><option value="9">Legal &amp; Compliance</option><option value="10">Operations &amp; Logistics</option></select>
+      <button class="btn" type="submit">Add employee</button>
+    </form>
+  </div>
+  <div class="card">
+    <h2>Overview</h2>
+    <p>Total employees: <strong>10</strong></p>
+    <p style="color:var(--muted)">Static preview: the Add, Edit and Delete buttons are shown for layout only.</p>
+  </div>
+</div>
+<div class="card">
+  <h2>All employees</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>#</th><th>Name</th><th>Email</th><th>Department</th><th style="text-align:right">Actions</th></tr></thead>
+    <tbody><tr><td>1</td><td>John Doe</td><td>john.doe@firm.com</td><td>Information Technology</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>2</td><td>Jane Smith</td><td>jane.smith@firm.com</td><td>Human Resources</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>3</td><td>Robert Johnson</td><td>robert.j@firm.com</td><td>Finance &amp; Accounting</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>4</td><td>Emily Davis</td><td>emily.d@firm.com</td><td>Marketing &amp; Communications</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>5</td><td>Michael Brown</td><td>michael.b@firm.com</td><td>Research &amp; Development</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>6</td><td>Sarah Wilson</td><td>sarah.w@firm.com</td><td>Customer Support</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>7</td><td>David Martinez</td><td>david.m@firm.com</td><td>Sales &amp; Business Development</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>8</td><td>Jessica Taylor</td><td>jessica.t@firm.com</td><td>Quality Assurance</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>9</td><td>Daniel Anderson</td><td>daniel.a@firm.com</td><td>Legal &amp; Compliance</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr><tr><td>10</td><td>Laura Thomas</td><td>laura.t@firm.com</td><td>Operations &amp; Logistics</td><td style="text-align:right"><button class="btn btn-small btn-ghost">Edit</button> <button class="btn btn-small btn-danger">Delete</button></td></tr></tbody>
+  </table></div>
+</div>
+
+</main>
+<footer class="footer">AttendPro · Static preview · data snapshot 2026-06-01</footer>
+</body>
+</html>

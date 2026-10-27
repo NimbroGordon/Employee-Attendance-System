@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Department Reports · AttendPro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">⏱️ AttendPro</div>
+  <nav><a href="index.html" class="">🏠 Dashboard</a><a href="mark.html" class="">✅ Mark Attendance</a><a href="history.html" class="">📅 Employee History</a><a href="reports.html" class="active">📊 Reports</a><a href="employees.html" class="">👥 Employees</a><a href="login.html" class="logout">Logout</a></nav>
+</header>
+<main class="container">
+<h1 class="page-title">Department Reports</h1>
+
+<div class="card"><p style="margin:0">Report for <strong>2026-06-01</strong> only (the sample data date range).</p></div>
+<div class="grid grid-4" style="margin-bottom:22px">
+  <div class="stat stat-purple"><div class="label">Overall attendance</div><div class="value">80.0%</div></div>
+  <div class="stat stat-cyan"><div class="label">Overall punctuality</div><div class="value">75.0%</div></div>
+  <div class="stat stat-red"><div class="label">Overall absenteeism</div><div class="value">20.0%</div></div>
+  <div class="stat stat-green"><div class="label">Records analysed</div><div class="value">10</div></div>
+</div>
+<div class="card">
+  <h2>Department breakdown</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Department</th><th>Staff</th><th>Present</th><th>Late</th><th>Absent</th><th>Attendance</th><th>Punctuality</th><th>Flags</th></tr></thead>
+    <tbody><tr><td><strong>Information Technology</strong></td><td>1</td><td><span class="badge st-present">1</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>100.0%</td><td><span class="badge flag-good">On track</span></td></tr><tr><td><strong>Human Resources</strong></td><td>1</td><td><span class="badge st-present">1</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>100.0%</td><td><span class="badge flag-good">On track</span></td></tr><tr><td><strong>Finance &amp; Accounting</strong></td><td>1</td><td><span class="badge st-present">0</span></td><td><span class="badge st-late">1</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>0.0%</td><td><span class="badge flag-warn">Punctuality issue</span></td></tr><tr><td><strong>Marketing &amp; Communications</strong></td><td>1</td><td><span class="badge st-present">0</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">1</span></td><td><div class="bar"><span style="width:0.0%"></span></div><small>0.0%</small></td><td>0%</td><td><span class="badge flag-warn">High absenteeism</span></td></tr><tr><td><strong>Research &amp; Development</strong></td><td>1</td><td><span class="badge st-present">1</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>100.0%</td><td><span class="badge flag-good">On track</span></td></tr><tr><td><strong>Customer Support</strong></td><td>1</td><td><span class="badge st-present">1</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>100.0%</td><td><span class="badge flag-good">On track</span></td></tr><tr><td><strong>Sales &amp; Business Development</strong></td><td>1</td><td><span class="badge st-present">0</span></td><td><span class="badge st-late">1</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>0.0%</td><td><span class="badge flag-warn">Punctuality issue</span></td></tr><tr><td><strong>Quality Assurance</strong></td><td>1</td><td><span class="badge st-present">1</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>100.0%</td><td><span class="badge flag-good">On track</span></td></tr><tr><td><strong>Legal &amp; Compliance</strong></td><td>1</td><td><span class="badge st-present">0</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">1</span></td><td><div class="bar"><span style="width:0.0%"></span></div><small>0.0%</small></td><td>0%</td><td><span class="badge flag-warn">High absenteeism</span></td></tr><tr><td><strong>Operations &amp; Logistics</strong></td><td>1</td><td><span class="badge st-present">1</span></td><td><span class="badge st-late">0</span></td><td><span class="badge st-absent">0</span></td><td><div class="bar"><span style="width:100.0%"></span></div><small>100.0%</small></td><td>100.0%</td><td><span class="badge flag-good">On track</span></td></tr></tbody>
+  </table></div>
+  <p style="color:var(--muted);font-size:0.85rem;margin-top:14px">
+    Rules: <em>High absenteeism</em> when absence ≥ 20%; <em>Punctuality issue</em> when on-time rate &lt; 70%.
+  </p>
+</div>
+
+</main>
+<footer class="footer">AttendPro · Static preview · data snapshot 2026-06-01</footer>
+</body>
+</html>

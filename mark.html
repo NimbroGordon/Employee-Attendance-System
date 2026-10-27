@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mark Attendance · AttendPro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">⏱️ AttendPro</div>
+  <nav><a href="index.html" class="">🏠 Dashboard</a><a href="mark.html" class="active">✅ Mark Attendance</a><a href="history.html" class="">📅 Employee History</a><a href="reports.html" class="">📊 Reports</a><a href="employees.html" class="">👥 Employees</a><a href="login.html" class="logout">Logout</a></nav>
+</header>
+<main class="container">
+<h1 class="page-title">Mark Attendance</h1>
+
+<div class="card"><p style="margin:0">Showing the saved statuses for <strong>2026-06-01</strong>.
+<em style="color:var(--muted)">Static preview: changes are not saved. Use the PHP version for live marking.</em></p></div>
+<form class="card" action="#" onsubmit="return false">
+  <div class="table-wrap"><table>
+    <thead><tr><th>Employee</th><th>Department</th><th>Status for 2026-06-01</th></tr></thead>
+    <tbody><tr><td>John Doe</td><td>Information Technology</td><td><div class="status-pick"><input type="radio" id="p1" name="status[1]" value="Present" checked><label class="p" for="p1">Present</label><input type="radio" id="l1" name="status[1]" value="Late" ><label class="l" for="l1">Late</label><input type="radio" id="a1" name="status[1]" value="Absent" ><label class="a" for="a1">Absent</label></div></td></tr><tr><td>Jane Smith</td><td>Human Resources</td><td><div class="status-pick"><input type="radio" id="p2" name="status[2]" value="Present" checked><label class="p" for="p2">Present</label><input type="radio" id="l2" name="status[2]" value="Late" ><label class="l" for="l2">Late</label><input type="radio" id="a2" name="status[2]" value="Absent" ><label class="a" for="a2">Absent</label></div></td></tr><tr><td>Robert Johnson</td><td>Finance &amp; Accounting</td><td><div class="status-pick"><input type="radio" id="p3" name="status[3]" value="Present" ><label class="p" for="p3">Present</label><input type="radio" id="l3" name="status[3]" value="Late" checked><label class="l" for="l3">Late</label><input type="radio" id="a3" name="status[3]" value="Absent" ><label class="a" for="a3">Absent</label></div></td></tr><tr><td>Emily Davis</td><td>Marketing &amp; Communications</td><td><div class="status-pick"><input type="radio" id="p4" name="status[4]" value="Present" ><label class="p" for="p4">Present</label><input type="radio" id="l4" name="status[4]" value="Late" ><label class="l" for="l4">Late</label><input type="radio" id="a4" name="status[4]" value="Absent" checked><label class="a" for="a4">Absent</label></div></td></tr><tr><td>Michael Brown</td><td>Research &amp; Development</td><td><div class="status-pick"><input type="radio" id="p5" name="status[5]" value="Present" checked><label class="p" for="p5">Present</label><input type="radio" id="l5" name="status[5]" value="Late" ><label class="l" for="l5">Late</label><input type="radio" id="a5" name="status[5]" value="Absent" ><label class="a" for="a5">Absent</label></div></td></tr><tr><td>Sarah Wilson</td><td>Customer Support</td><td><div class="status-pick"><input type="radio" id="p6" name="status[6]" value="Present" checked><label class="p" for="p6">Present</label><input type="radio" id="l6" name="status[6]" value="Late" ><label class="l" for="l6">Late</label><input type="radio" id="a6" name="status[6]" value="Absent" ><label class="a" for="a6">Absent</label></div></td></tr><tr><td>David Martinez</td><td>Sales &amp; Business Development</td><td><div class="status-pick"><input type="radio" id="p7" name="status[7]" value="Present" ><label class="p" for="p7">Present</label><input type="radio" id="l7" name="status[7]" value="Late" checked><label class="l" for="l7">Late</label><input type="radio" id="a7" name="status[7]" value="Absent" ><label class="a" for="a7">Absent</label></div></td></tr><tr><td>Jessica Taylor</td><td>Quality Assurance</td><td><div class="status-pick"><input type="radio" id="p8" name="status[8]" value="Present" checked><label class="p" for="p8">Present</label><input type="radio" id="l8" name="status[8]" value="Late" ><label class="l" for="l8">Late</label><input type="radio" id="a8" name="status[8]" value="Absent" ><label class="a" for="a8">Absent</label></div></td></tr><tr><td>Daniel Anderson</td><td>Legal &amp; Compliance</td><td><div class="status-pick"><input type="radio" id="p9" name="status[9]" value="Present" ><label class="p" for="p9">Present</label><input type="radio" id="l9" name="status[9]" value="Late" ><label class="l" for="l9">Late</label><input type="radio" id="a9" name="status[9]" value="Absent" checked><label class="a" for="a9">Absent</label></div></td></tr><tr><td>Laura Thomas</td><td>Operations &amp; Logistics</td><td><div class="status-pick"><input type="radio" id="p10" name="status[10]" value="Present" checked><label class="p" for="p10">Present</label><input type="radio" id="l10" name="status[10]" value="Late" ><label class="l" for="l10">Late</label><input type="radio" id="a10" name="status[10]" value="Absent" ><label class="a" for="a10">Absent</label></div></td></tr></tbody>
+  </table></div>
+  <p style="margin-top:18px"><button class="btn" type="submit">💾 Save attendance</button></p>
+</form>
+
+</main>
+<footer class="footer">AttendPro · Static preview · data snapshot 2026-06-01</footer>
+</body>
+</html>

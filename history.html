@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Employee History · AttendPro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">⏱️ AttendPro</div>
+  <nav><a href="index.html" class="">🏠 Dashboard</a><a href="mark.html" class="">✅ Mark Attendance</a><a href="history.html" class="active">📅 Employee History</a><a href="reports.html" class="">📊 Reports</a><a href="employees.html" class="">👥 Employees</a><a href="login.html" class="logout">Logout</a></nav>
+</header>
+<main class="container">
+<h1 class="page-title">Employee History</h1>
+
+<div class="card"><p style="margin:0">Full attendance log for <strong>2026-06-01</strong>. In the live PHP app you choose one employee and a date range.</p></div>
+<div class="grid grid-4" style="margin-bottom:22px">
+  <div class="stat stat-purple"><div class="label">Records</div><div class="value">10</div></div>
+  <div class="stat stat-green"><div class="label">Attendance rate</div><div class="value">80.0%</div></div>
+  <div class="stat stat-cyan"><div class="label">Punctuality</div><div class="value">75.0%</div></div>
+  <div class="stat stat-red"><div class="label">Absenteeism</div><div class="value">20.0%</div></div>
+</div>
+<div class="card">
+  <h2>Attendance log</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Date</th><th>Employee</th><th>Status</th></tr></thead>
+    <tbody><tr><td>2026-06-01</td><td>John Doe</td><td><span class="badge st-present">Present</span></td></tr><tr><td>2026-06-01</td><td>Jane Smith</td><td><span class="badge st-present">Present</span></td></tr><tr><td>2026-06-01</td><td>Robert Johnson</td><td><span class="badge st-late">Late</span></td></tr><tr><td>2026-06-01</td><td>Emily Davis</td><td><span class="badge st-absent">Absent</span></td></tr><tr><td>2026-06-01</td><td>Michael Brown</td><td><span class="badge st-present">Present</span></td></tr><tr><td>2026-06-01</td><td>Sarah Wilson</td><td><span class="badge st-present">Present</span></td></tr><tr><td>2026-06-01</td><td>David Martinez</td><td><span class="badge st-late">Late</span></td></tr><tr><td>2026-06-01</td><td>Jessica Taylor</td><td><span class="badge st-present">Present</span></td></tr><tr><td>2026-06-01</td><td>Daniel Anderson</td><td><span class="badge st-absent">Absent</span></td></tr><tr><td>2026-06-01</td><td>Laura Thomas</td><td><span class="badge st-present">Present</span></td></tr></tbody>
+  </table></div>
+</div>
+
+</main>
+<footer class="footer">AttendPro · Static preview · data snapshot 2026-06-01</footer>
+</body>
+</html>
